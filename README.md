@@ -8,11 +8,18 @@ npx create-react-app ./
 
 npm install node-sass
 
-## router 설치   
-npm install react-router-dom   
+## router 설치
 
-## axios 설치   
-npm install axios   
+npm install react-router-dom
 
-## gsap 설치   
-npm install gsap   
+## axios 설치
+
+npm install axios
+
+## gsap 설치
+
+npm install gsap
+
+## Netlify 주소
+
+https://sshin-react02.netlify.app/
