@@ -10,8 +10,8 @@ const Maincont = () => {
         <section className="cont__main">
             <div className="container">
                 <div className="main__inner">
-                    {MainInfo.map((text) => (
-                        <MainText text={text.text} />
+                    {MainInfo.map((text, idx) => (
+                        <MainText key={idx} text={text.text} />
                     ))}
                 </div>
             </div>

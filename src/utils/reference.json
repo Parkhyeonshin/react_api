@@ -1,0 +1,114 @@
+{
+    "type": "css",
+    "cssRefer": [
+        {
+            "num": 1,
+            "title": "align-ocntent",
+            "desc": "콘텐츠 사이와 콘텐츠 주위 빈 공간을 플렉스 박스'의 교차축 또는 그리드의 블록 축을 따라 배치하는 방식을 결정합니다.",
+            "descBasic": "align-content : stretch",
+            "descApple": "flexbox",
+            "descVer": "css3",
+            "descStar": "★★★☆☆",
+            "definition": [
+                "콘텐츠 사이와 콘텐츠 주위 빈 공간을 플렉스 박스'의 교차축 또는 그리드의 블록 축을 따라 배치하는 방식을 결정합니다.",
+                "교차축에서 아이템 정렬 하는 속성입니다. 주로 flex에서 item들을 정렬할 때 사용됩니다."
+            ]
+        },
+        {
+            "num": 2,
+            "title": "accent-color",
+            "desc": "일부 요소가 생성하는 사용자 인터페이스 컨트롤의 강조색을 지정합니다.",
+            "descBasic": "accent-color",
+            "descApple": "accent-color",
+            "descVer": "css3",
+            "descStar": "★☆☆☆☆",
+            "definition": [
+                "일부 요소가 생성하는 사용자 인터페이스 컨트롤의 강조색을 지정합니다.",
+                "일부 요소가 생성하는 사용자 인터페이스 컨트롤의 강조색을 지정합니다."
+            ]
+        },
+        {
+            "num": 3,
+            "title": "align-items",
+            "desc": "플렉스 요소의 수직 방향 정렬 방식을 설정합니다.",
+            "descBasic": "align-items",
+            "descApple": "align-items",
+            "descVer": "css3",
+            "descStar": "★★★☆☆",
+            "definition": ["플렉스 요소의 수직 방향 정렬 방식을 설정합니다.", "플렉스 요소의 수직 방향 정렬 방식을 설정합니다."]
+        },
+        {
+            "num": 4,
+            "title": "align-self",
+            "desc": "개별적인 플렉스 아이템의 정렬 상태를 설정합니다.",
+            "descBasic": "align-self",
+            "descApple": "align-self",
+            "descVer": "css3",
+            "descStar": "★★★☆☆",
+            "definition": ["개별적인 플렉스 아이템의 정렬 상태를 설정합니다.", "개별적인 플렉스 아이템의 정렬 상태를 설정합니다."]
+        },
+        {
+            "num": 5,
+            "title": "all",
+            "desc": "요소의 unicode-bidi, direction, CSS 사용자 지정 속성을 제외한 모든 속성을 초기화합니다.",
+            "descBasic": "all",
+            "descApple": "all",
+            "descVer": "css3",
+            "descStar": "★☆☆☆☆",
+            "definition": [
+                "요소의 unicode-bidi, direction, CSS 사용자 지정 속성을 제외한 모든 속성을 초기화합니다.",
+                "요소의 unicode-bidi, direction, CSS 사용자 지정 속성을 제외한 모든 속성을 초기화합니다."
+            ]
+        },
+        {
+            "num": 6,
+            "title": "animation",
+            "desc": "애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
+            "descBasic": "animation",
+            "descApple": "animation",
+            "descVer": "css3",
+            "descStar": "★★★★★",
+            "definition": ["애니메이션과 관련된 속성을 일괄적으로 설정합니다.", "애니메이션과 관련된 속성을 일괄적으로 설정합니다."]
+        },
+        {
+            "num": 7,
+            "title": "animation-delay",
+            "desc": "애니메이션 지연 시간을 설정합니다.",
+            "descBasic": "animation-delay",
+            "descApple": "animation",
+            "descVer": "css3",
+            "descStar": "★★★☆☆",
+            "definition": ["애니메이션 지연 시간을 설정합니다.", "애니메이션 지연 시간을 설정합니다."]
+        },
+        {
+            "num": 8,
+            "title": "animation-direction",
+            "desc": "애니메이션 움직임 방향을 설정합니다.",
+            "descBasic": "animation-direction",
+            "descApple": "animation",
+            "descVer": "css3",
+            "descStar": "★★★☆☆",
+            "definition": ["애니메이션 움직임 방향을 설정합니다.", "애니메이션 움직임 방향을 설정합니다."]
+        },
+        {
+            "num": 9,
+            "title": "animation-duration",
+            "desc": "애니메이션 움직임 시간을 설정합니다.",
+            "descBasic": "animation-duration",
+            "descApple": "animation",
+            "descVer": "css3",
+            "descStar": "★☆☆☆☆",
+            "definition": ["애니메이션 움직임 시간을 설정합니다.", "애니메이션 움직임 시간을 설정합니다."]
+        },
+        {
+            "num": 10,
+            "title": "animation-fill-mode",
+            "desc": "애니메이션이 끝난 후의 상태를 설정합니다.",
+            "descBasic": "animation-fill-mode",
+            "descApple": "animation",
+            "descVer": "css3",
+            "descStar": "★☆☆☆☆",
+            "definition": ["애니메이션이 끝난 후의 상태를 설정합니다.", "애니메이션이 끝난 후의 상태를 설정합니다."]
+        }
+    ]
+}
