@@ -3,62 +3,53 @@
     "cssRefer": [
         {
             "num": 1,
-            "title": "align-ocntent",
-            "desc": "콘텐츠 사이와 콘텐츠 주위 빈 공간을 플렉스 박스'의 교차축 또는 그리드의 블록 축을 따라 배치하는 방식을 결정합니다.",
-            "descBasic": "align-content : stretch",
-            "descApple": "flexbox",
+            "title": "background",
+            "desc": "백그라운드 속성을 일괄적으로 설정합니다.",
+            "descBasic": "background: #000;",
+            "descApple": "background",
             "descVer": "css3",
-            "descStar": "★★★☆☆",
-            "definition": [
-                "콘텐츠 사이와 콘텐츠 주위 빈 공간을 플렉스 박스'의 교차축 또는 그리드의 블록 축을 따라 배치하는 방식을 결정합니다.",
-                "교차축에서 아이템 정렬 하는 속성입니다. 주로 flex에서 item들을 정렬할 때 사용됩니다."
-            ]
+            "descStar": "★★★★★",
+            "definition": ["백그라운드 속성을 일괄적으로 설정합니다.", "백그라운드 속성을 일괄적으로 설정합니다."]
         },
         {
             "num": 2,
-            "title": "accent-color",
-            "desc": "일부 요소가 생성하는 사용자 인터페이스 컨트롤의 강조색을 지정합니다.",
-            "descBasic": "accent-color",
-            "descApple": "accent-color",
+            "title": "content",
+            "desc": "콘텐츠 내용을 설정합니다.",
+            "descBasic": "content: '';",
+            "descApple": "content",
             "descVer": "css3",
-            "descStar": "★☆☆☆☆",
-            "definition": [
-                "일부 요소가 생성하는 사용자 인터페이스 컨트롤의 강조색을 지정합니다.",
-                "일부 요소가 생성하는 사용자 인터페이스 컨트롤의 강조색을 지정합니다."
-            ]
+            "descStar": "★★★★★",
+            "definition": ["콘텐츠 내용을 설정합니다.", "콘텐츠 내용을 설정합니다."]
         },
         {
             "num": 3,
-            "title": "align-items",
-            "desc": "플렉스 요소의 수직 방향 정렬 방식을 설정합니다.",
-            "descBasic": "align-items",
-            "descApple": "align-items",
+            "title": "display",
+            "desc": "요소의 성질을 정의합니다.",
+            "descBasic": "display: block;",
+            "descApple": "display",
             "descVer": "css3",
-            "descStar": "★★★☆☆",
-            "definition": ["플렉스 요소의 수직 방향 정렬 방식을 설정합니다.", "플렉스 요소의 수직 방향 정렬 방식을 설정합니다."]
+            "descStar": "★★★★★",
+            "definition": ["요소의 성질을 정의합니다.", "요소의 성질을 정의합니다."]
         },
         {
             "num": 4,
-            "title": "align-self",
-            "desc": "개별적인 플렉스 아이템의 정렬 상태를 설정합니다.",
-            "descBasic": "align-self",
-            "descApple": "align-self",
+            "title": "font-size",
+            "desc": "폰트 사이즈 속성을 설정합니다.",
+            "descBasic": "font-size: 16px;",
+            "descApple": "font-size",
             "descVer": "css3",
             "descStar": "★★★☆☆",
-            "definition": ["개별적인 플렉스 아이템의 정렬 상태를 설정합니다.", "개별적인 플렉스 아이템의 정렬 상태를 설정합니다."]
+            "definition": ["폰트 사이즈 속성을 설정합니다.", "폰트 사이즈 속성을 설정합니다."]
         },
         {
             "num": 5,
-            "title": "all",
-            "desc": "요소의 unicode-bidi, direction, CSS 사용자 지정 속성을 제외한 모든 속성을 초기화합니다.",
-            "descBasic": "all",
-            "descApple": "all",
+            "title": "grid",
+            "desc": "레이아웃을 구성하는 속성 값 중 하나입니다.",
+            "descBasic": "grid",
+            "descApple": "grid",
             "descVer": "css3",
-            "descStar": "★☆☆☆☆",
-            "definition": [
-                "요소의 unicode-bidi, direction, CSS 사용자 지정 속성을 제외한 모든 속성을 초기화합니다.",
-                "요소의 unicode-bidi, direction, CSS 사용자 지정 속성을 제외한 모든 속성을 초기화합니다."
-            ]
+            "descStar": "★★★☆☆",
+            "definition": ["레이아웃을 구성하는 속성 값 중 하나입니다.", "레이아웃을 구성하는 속성 값 중 하나입니다."]
         },
         {
             "num": 6,

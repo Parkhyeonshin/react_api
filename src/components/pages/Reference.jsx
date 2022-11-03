@@ -11,10 +11,10 @@ const Reference = () => {
     const [references, setRefernces] = useState([]);
 
     useEffect(() => {
-        fetch("https://webstoryboy.github.io/react2022/src/assets/json/refer.json")
+        fetch("https://raw.githubusercontent.com/Parkhyeonshin/react_api/main/src/utils/reference.json")
             .then((response) => response.json())
-            // .then((result) => console.log(result.data))
-            .then((result) => setRefernces(result.data.htmlRefer))
+            // .then((result) => console.log(result.cssRefer))
+            .then((result) => setRefernces(result.cssRefer))
             .catch((error) => console.log("error", error));
     }, []);
 

@@ -44,7 +44,7 @@ const ReferCont = ({ references }) => {
                     <h2>CSS</h2>
                     <ul className="refer__list">
                         {references.map((text, i) => (
-                            <ReferText key={i} num={text.id} name={text.title} desc={text.desc} star={text.use} />
+                            <ReferText key={i} num={text.num} name={text.title} desc={text.desc} star={text.descStar} />
                         ))}
                     </ul>
                 </div>
