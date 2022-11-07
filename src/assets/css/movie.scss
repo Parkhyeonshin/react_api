@@ -1,0 +1,37 @@
+.movie__inner {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        li {
+            width: 23%;
+            position: relative;
+            em {
+                display: block;
+                height: 80px;
+                margin-bottom: 30px;
+                font-family: var(--font-kor);
+            }
+            .title {
+                padding: 5px 0;
+                display: inline-block;
+            }
+            .star {
+                background: #fff;
+                color: #000;
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 30px;
+                font-weight: 700;
+            }
+        }
+    }
+    a {
+        color: var(--white);
+    }
+}
