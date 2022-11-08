@@ -1,6 +1,6 @@
 import React from "react";
 
-const MainInfo = [{ text: "we provide" }, { text: "visual coding" }, { text: "solutions" }, { text: "for you API<" }];
+const MainInfo = [{ text: "we provide" }, { text: "visual coding" }, { text: "solutions" }, { text: "for you API" }];
 const MainText = ({ text }) => {
     return <div>{text}</div>;
 };
