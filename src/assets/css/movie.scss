@@ -1,6 +1,7 @@
 .movie__pop {
-    width: 100%;
-    overflow-x: auto;
+    margin-bottom: 45px;
+    border-bottom: 2px solid var(--white);
+    padding-bottom: 30px;
 
     .movie__popname {
         color: snow;
@@ -103,6 +104,15 @@
     a {
         color: var(--white);
     }
+
+    .swiper-pagination-bullet-active {
+        background: var(--white);
+        transform: scale(1.3);
+    }
+    .swiper-pagination-bullet {
+        background: #eee;
+        transition: all 0.5s ease-in;
+    }
 }
 
 .movie__inner {
@@ -144,7 +154,7 @@
 }
 
 .movie__search {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
     .container {
         position: relative;
@@ -158,7 +168,7 @@
     }
     input {
         background: #000;
-        border: 2px solid var(--white);
+        border: 2px solid #565656;
         border-radius: 30px;
         color: #fff;
         width: 100%;
@@ -176,5 +186,20 @@
         font-family: var(--font-kor2);
         line-height: 30px;
         z-index: 1000;
+        background: #565656;
+        color: var(--white);
+        &:hover {
+            background: #eee;
+            color: var(--black);
+            cursor: pointer;
+        }
+    }
+
+    .swiper-pagination-bullet-active {
+        background: var(--white);
+        transform: scale(1.3);
+    }
+    .swiper-pagination-bullet {
+        transition: all 0.5s ease-in;
     }
 }
