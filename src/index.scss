@@ -1,25 +1,31 @@
 @charset "UTF-8";
 
-// fonts
+//fonts
 @import "./assets/css/fonts.scss";
 
-// resets
+//resets
 @import "./assets/css/resets.scss";
 
-// common
+//common
 @import "./assets/css/common.scss";
 
-// header
+//header
 @import "./assets/css/header.scss";
 
-// footer
+//footer
 @import "./assets/css/footer.scss";
 
-// main
+//main
 @import "./assets/css/main.scss";
 
-// reference
+//reference
 @import "./assets/css/refer.scss";
 
-// movie
+//movie
 @import "./assets/css/movie.scss";
+
+//unplash
+@import "./assets/css/unplash.scss";
+
+//youtube
+@import "./assets/css/youtube.scss";
