@@ -1,0 +1,47 @@
+// .unsplash__inner {
+//     ul {
+//         column-count: 4;
+//         column-gap: 20px;
+//         width: 100%;
+
+//         li {
+//             margin-bottom: 20px;
+
+//             img {
+//                 border-radius: 5px;
+//             }
+//         }
+//     }
+// }
+.youtube__inner {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    h2 {
+        color: #fff;
+        font-size: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .swiper-pagination-bullet-active {
+        background: white;
+    }
+}
+.youtube__btn {
+    .container button {
+        background: #565656;
+        color: snow;
+        border-radius: 5px;
+        padding: 5px 10px;
+        padding-top: 2px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background: var(--white);
+            color: var(--black);
+        }
+    }
+}
