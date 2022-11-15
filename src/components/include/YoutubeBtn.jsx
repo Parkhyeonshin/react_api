@@ -25,19 +25,19 @@ const UnsplashBtn = ({ onSearch }) => {
           placeholder="검색하세요!"
           onKeyPress={onKeyPress}
         /> */}
-                <button type="submit" onClick={onClick1}>
+                <button type="submit" onClick={onClick1} className="tagBtn">
                     html
                 </button>
-                <button type="submit" onClick={onClick2}>
+                <button type="submit" onClick={onClick2} className="tagBtn">
                     css
                 </button>
-                <button type="submit" onClick={onClick3}>
+                <button type="submit" onClick={onClick3} className="tagBtn">
                     javascript
                 </button>
-                <button type="submit" onClick={onClick4}>
+                <button type="submit" onClick={onClick4} className="tagBtn">
                     react
                 </button>
-                <button type="submit" onClick={onClick5}>
+                <button type="submit" onClick={onClick5} className="tagBtn">
                     vue
                 </button>
             </div>

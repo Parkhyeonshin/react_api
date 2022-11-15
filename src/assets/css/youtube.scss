@@ -29,6 +29,9 @@
     }
 }
 .youtube__btn {
+    .container {
+        text-align: center;
+    }
     .container button {
         background: #565656;
         color: snow;
@@ -37,11 +40,26 @@
         padding-top: 2px;
         font-size: 16px;
         margin-bottom: 10px;
+        margin-left: 5px;
         cursor: pointer;
 
         &:hover {
             background: var(--white);
             color: var(--black);
+        }
+    }
+    .container button.tagBtn {
+        background: none;
+        border: 1px solid #565656;
+        margin-bottom: 50px;
+        transition: all 0.3s ease;
+        padding: 7px 13px;
+        padding-bottom: 9px;
+        line-height: 1;
+        &:hover {
+            box-shadow: inset 0px 0px 3px 3px var(--white);
+            color: var(--white);
+            transform: translateY(-10px);
         }
     }
 }
