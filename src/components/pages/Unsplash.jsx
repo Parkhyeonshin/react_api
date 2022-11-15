@@ -22,12 +22,12 @@ const Unsplash = () => {
     };
 
     useEffect(() => {
-        fetch("https://api.unsplash.com/photos/random?client_id=JN0Xp0E35hR1IoBWz_MgaXzV3uhKAwCMOrCfKt_7SVA&query=human&count=30")
+        fetch("https://api.unsplash.com/photos/random?client_id=wvNGn3UIEgB318VeRW4JICo3pgTNSdVlcqgsXl_Tm0k&query=human&count=30")
             .then((response) => response.json())
             .then((result) => setImages(result))
             .catch((error) => console.log("error", error));
 
-        fetch("https://api.unsplash.com/photos/random?client_id=JN0Xp0E35hR1IoBWz_MgaXzV3uhKAwCMOrCfKt_7SVA&count=10")
+        fetch("https://api.unsplash.com/photos/random?client_id=wvNGn3UIEgB318VeRW4JICo3pgTNSdVlcqgsXl_Tm0k&count=10")
             .then((response) => response.json())
             .then((result) => setRandom(result))
             .catch((error) => console.log("error", error));

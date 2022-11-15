@@ -3,12 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/scrollbar";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import "swiper/css/effect-cards";
 
 // import required modules
-import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper";
+import { EffectCards } from "swiper";
 
 function UnsplashRan({ random }) {
     return (
@@ -22,32 +20,11 @@ function UnsplashRan({ random }) {
 
 const UnsplashSlider = ({ random }) => {
     return (
-        <section className="movie__popular">
+        <section className="unsplash__popular">
             <div className="container">
-                <div className="unsplash__inner">
+                <div className="unsplash__headerinner">
                     <h2>Unsplash Random</h2>
-                    <Swiper
-                        slidesPerView={1}
-                        centeredSlides={false}
-                        slidesPerGroupSkip={1}
-                        grabCursor={true}
-                        keyboard={{
-                            enabled: true,
-                        }}
-                        breakpoints={{
-                            769: {
-                                slidesPerView: 2,
-                                slidesPerGroup: 2,
-                            },
-                        }}
-                        scrollbar={true}
-                        navigation={true}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-                        className="mySwiper"
-                    >
+                    <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]} className="mySwiper">
                         {random.map((random, index) =>
                             index < 10 ? (
                                 <SwiperSlide key={index}>

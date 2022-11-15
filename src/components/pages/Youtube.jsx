@@ -16,7 +16,7 @@ const Youtube = () => {
 
     const search = async (query) => {
         await fetch(
-            `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=AIzaSyBXhseeCMnFTN8eAya3AnDZLNPBXNUgvjU&maxResults=30&type=video`
+            `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=AIzaSyANNkakWue2AYsAUKUGRlVxrqBuH6JbMrQ&maxResults=30&type=video`
         )
             .then((response) => response.json())
             .then((result) => setYoutubes(result.items))
@@ -25,14 +25,14 @@ const Youtube = () => {
 
     useEffect(() => {
         fetch(
-            "https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=game&key=AIzaSyBXhseeCMnFTN8eAya3AnDZLNPBXNUgvjU&maxResults=30&type=video"
+            "https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=game&key=AIzaSyANNkakWue2AYsAUKUGRlVxrqBuH6JbMrQ&maxResults=30&type=video"
         )
             .then((response) => response.json())
             .then((result) => setYoutubes(result.items))
             .catch((error) => console.log("error", error));
 
         fetch(
-            "https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=react&key=AIzaSyBXhseeCMnFTN8eAya3AnDZLNPBXNUgvjU&maxResults=30&type=video"
+            "https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=react&key=AIzaSyANNkakWue2AYsAUKUGRlVxrqBuH6JbMrQ&maxResults=30&type=video"
         )
             .then((response) => response.json())
             .then((result) => setRandom(result.items))
