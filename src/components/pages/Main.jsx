@@ -12,6 +12,7 @@ const Main = () => {
                 <Maincont />
             </Contents>
             <Footer />
+            뭐가되야될거아냐
         </>
     );
 };
