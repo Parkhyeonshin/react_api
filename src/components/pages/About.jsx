@@ -6,6 +6,9 @@ import Title from "../layout/Title";
 import AboutCont from "../include/AboutCont";
 import Contact from "../layout/Contact";
 
+
+
+
 const About = () => {
     return (
         <>
