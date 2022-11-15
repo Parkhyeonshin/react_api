@@ -15,19 +15,19 @@ const Unsplash = () => {
     const [random, setRandom] = useState([]);
 
     const search = async (query) => {
-        await fetch(`https://api.unsplash.com/search/photos?client_id=MQTjZPliVmEwJE8bRXeYPG83q1gT78-3AjOvYV4HNQk&query=${query}&per_page=30`)
+        await fetch(`https://api.unsplash.com/search/photos?client_id=JN0Xp0E35hR1IoBWz_MgaXzV3uhKAwCMOrCfKt_7SVA&query=${query}&per_page=30`)
             .then((response) => response.json())
             .then((result) => setImages(result.results))
             .catch((error) => console.log("error", error));
     };
 
     useEffect(() => {
-        fetch("https://api.unsplash.com/photos/random?client_id=MQTjZPliVmEwJE8bRXeYPG83q1gT78-3AjOvYV4HNQk&query=seoul&count=30")
+        fetch("https://api.unsplash.com/photos/random?client_id=JN0Xp0E35hR1IoBWz_MgaXzV3uhKAwCMOrCfKt_7SVA&query=human&count=30")
             .then((response) => response.json())
             .then((result) => setImages(result))
             .catch((error) => console.log("error", error));
 
-        fetch("https://api.unsplash.com/photos/random?client_id=MQTjZPliVmEwJE8bRXeYPG83q1gT78-3AjOvYV4HNQk&count=10")
+        fetch("https://api.unsplash.com/photos/random?client_id=JN0Xp0E35hR1IoBWz_MgaXzV3uhKAwCMOrCfKt_7SVA&count=10")
             .then((response) => response.json())
             .then((result) => setRandom(result))
             .catch((error) => console.log("error", error));
